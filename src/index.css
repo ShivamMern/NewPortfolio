@@ -17,3 +17,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/* Add this CSS to style the OK button */
+.swal-btn-ok {
+  background-color: #28a745 !important;  /* Green background */
+  border-color: #28a745 !important;      /* Green border */
+  color: white !important;               /* White text */
+}
+
+.swal-btn-ok:hover {
+  background-color: #218838 !important;  /* Darker green on hover */
+  border-color: #1e7e34 !important;      /* Darker green border on hover */
+}

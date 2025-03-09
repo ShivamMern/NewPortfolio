@@ -39,7 +39,7 @@ const Home = () => {
 
             {/* text */}
             <div className="flex flex-col items-center lg:items-start">
-            <h1 class="text-4xl lg:text-5xl font-bold my-5 lg:my-7 text-center">Full-Stack Developer</h1>
+            <h1 class="text-4xl lg:text-4xl font-bold my-5 lg:my-7 text-center lg:text-start ">Full-Stack Developer</h1>
             <p class="text-center lg:text-lg lg:text-start">Shivam Khandar : Crafting Digital Experiences from Concept to Code 🚀</p>
             <p class="text-center lg:text-lg lg:text-start">Full Stack Developer with a Flair for Frontend | React Maestro at TechQuadra</p>
             <div className="typewriter-container">
