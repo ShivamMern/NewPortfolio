@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // API Base URL (Change it if needed)
-const API_URL = "http://localhost:5000/api/contact";
+const API_URL = "https://newportfoliobe-1.onrender.com/api/contact";
 
 // Async Thunk to Submit the Contact Form
 export const submitContactForm = createAsyncThunk(

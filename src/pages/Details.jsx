@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api/contact";
+const API_BASE_URL = "https://newportfoliobe-1.onrender.com/api/contact";
 
 const Details = () => {
   const [contacts, setContacts] = useState([]);
